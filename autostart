@@ -1,0 +1,7 @@
+# /root/.bashrc: executed by bash(1) for root shells.
+
+if [ -z "$SSH_CONNECTION" ]; then
+# Launch AdvanceMAME with a ROM
+echo && echo “Starting AdvanceMAME” && echo
+/usr/local/bin/advmame sf
+fi
